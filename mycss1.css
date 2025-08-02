@@ -1,0 +1,161 @@
+html { overflow-y: scroll; 
+}
+
+body {
+        margin:0;
+        padding:0;
+        font: bold 11px/1.5em Verdana;
+        background: linear-gradient(to right, #cceeff, #e0f7ff);
+}
+
+h1 {
+        font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+        color: #2f4f4f;
+        font-size: 24px;
+}
+
+h2 {
+        font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+        color:#2f4f4f;
+        font-size: 24px;
+}
+
+h6{
+        font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+        color:#2f4f4f;
+        font-size: 12px;
+        text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+}
+
+nav {
+  background-color: transparent;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.248);
+  border-radius: 50px;
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  display: block;
+  padding: 15px 20px;
+  color: #2f4f4f;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.navbar a span {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar a::after {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: 20%;
+  width: 60%;
+  height: 2px;
+  background-color: transparent;
+  transition: background-color 0.3s ease, width 0.3s ease;
+}
+
+.navbar a:hover::after {
+  background-color: #889297;
+  width: 80%;
+}
+
+.navbar a:hover {
+  color: #9296b0;
+}
+
+#current a {
+  color: #2f4f4f#ffffff;
+  font-weight: bold;
+}
+
+#current a::after {
+  background-color: #9296b0;
+  width: 80%;
+}
+
+.Flowers{
+  color: #2f4f4f;
+  text-align: center;
+}
+
+#icon {
+  width: 40px;  
+  height: 40px;
+  vertical-align: middle; 
+  margin-right: 10px;    
+}
+
+#flowerimage:hover{
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+#flowerimage{
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#photography{
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+.no-link-style {
+  text-decoration: none;
+  color: inherit;
+}
+.zoom-img {
+  transition: transform 0.3s ease;
+}
+
+.zoom-img:hover {
+  transform: scale(1.2); /* zoom in by 20% */
+  z-index: 10;
+}
+.footer-text {
+  border-top: 0.5px solid #aaa; /* Line above */
+  padding-top: 10px;
+  width: 1100px;          /* Space between line and text */
+  margin: 0 auto;
+  text-align: center;         /* Optional: center the text */
+  color: #333;                /* Optional: font color */
+  font-size: 10px;            /* Optional: adjust text size */
+}
+#searchBox {
+  width: 300px;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#searchBox:focus {
+  border-color: #9296b0;
+  box-shadow: 0 0 8px rgba(61, 60, 75, 0.4);
+}

@@ -1,0 +1,51 @@
+<html>
+<head>
+</head>
+<body bgcolor=green><center>
+
+  <h1 style="color: white;">My Flower Gallery</h1>
+  
+  <table border="1">
+    <tr>
+      <td><img src="Sampaguita.jpg" width="350" height="350"></td>
+      <td><img src="Waling-waling.jpg" width="350" height="350"></td>
+      <td><img src="Rafflesia.jpg" width="350" height="350"></td>
+    </tr>
+    <tr>
+      <td width="350" height="20">Sampaguita</td>
+      <td width="350" height="20">Waling-waling</td>
+      <td width="350" height="20">Rafflesia</td>
+    </tr>
+    <tr>
+      <td><img src="Ilang-ilang.jpg" width="350" height="350"></td>
+      <td><img src="Gumamela.jpg" width="350" height="350"></td>
+      <td><img src="Kalachuchi.jpg" width="350" height="350"></td>
+    </tr>
+    <tr>
+      <td width="350" height="20">Ilang-ilang</td>
+      <td width="350" height="20">Gumamela</td>
+      <td width="350" height="20">Kalachuchi</td>
+    </tr>
+    <tr>
+      <td><img src="Jade Vine.jpg" width="350" height="350"></td>
+      <td><img src="Kapa-kapa.jpg" width="350" height="350"></td>
+      <td><img src="Banaba.jpg" width="350" height="350"></td>
+    </tr>
+    <tr>
+      <td width="350" height="20">Jade Vine</td>
+      <td width="350" height="20">Kapa-kapa</td>
+      <td width="350" height="20">Banaba</td>
+    </tr>
+    <tr>
+      <td><img src="Anthurium.jpg" width="350" height="350"></td>
+      <td><img src="Dama De Noche.jpg" width="350" height="350"></td>
+      <td><img src="Rose Mallow.jpeg" width="350" height="350"></td>
+    </tr>
+    <tr>
+      <td width="350" height="20">Anthurium</td>
+      <td width="350" height="20">Dama De Noche</td>
+      <td width="350" height="20">Rose Mallow</td>
+    </tr>
+  </table>
+</body>
+</html>
